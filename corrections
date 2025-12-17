@@ -71,3 +71,64 @@ INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivative
 VALUES
     ('وغل', 'وغل', '10', 'وغل الواغل وَغَلَ يَغِلُ وَغْلاً والوَغْلُ أَوْغالٍ وأَوْغَلَ تَوَغّلوا وتَغَلْغلوا وأَوْغَلَتْهُ', '', '3', 'vowel', '*وغل *الواغل الدّاخل في قوم على طعام أو شراب من غير دعوة وَغَلَ يَغِلُ وَغْلاً والوَغْلُ الرجل الضعيفُ ويجمَع على أَوْغالٍ وأَوْغَلَ القومُ أي أَمْعنوا في سَيْرهم داخلينَ في جبالٍ أو أرضٍ من العدو وكذلك تَوَغّلوا وتَغَلْغلوا وأَوْغَلَتْهُ حاجتُه إلينا أي أَسْرَعَتْ به إلينا', 'Ein.csv', '2025-12-17 05:06:59', '2025-12-17 05:06:59');
 
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('جلن', 'جلن', '0', '', '', '3', 'no vowel', ' *جَلَنْ*  حِكَايَةُ صَوْتِ البابِ ذي المِصْرَاعَيْنِ إذا رُدّا الجيم واللام والفاء', 'almuheet_2.csv', '2025-12-17 05:07:38', '2025-12-17 05:07:38');
+
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('ملنبس', 'ملنبس', '2', ' مَلَنْبَس المَلَنْبَس', 'ملنبس الملنبس', '5', 'no vowel', ' *ملبس*     المَلَنْبَس  البئر الكثيرة الماء كالقَلَنْبَس والقَلَمَّس ؛ كراع ', 'lesan_8.csv', '2025-12-17 05:08:06', '2025-12-17 05:08:06');
+
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('مسغ', 'مسغ', '1', 'ممَسَّغٌ', 'ممسغ', '3', 'no vowel', ' *مسغ*     رَجُلٌ ممَسَّغٌ  عِيْبَ بالشَّيْءِ وهو بالشِّين أعْرَفُ', 'almuheet_2.csv', '2025-12-17 05:07:35', '2025-12-17 05:07:35');
+
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('استبرق', 'استبرق', '1', 'استبرق', 'استبرق', '6', 'vowel', ' *استبرق*   قال الزجاج في قوله تعالى  عاليَهُم ثيابُ سُندس خُضر قال  هو الدِّيباج الصفيق الغليظ الحسَن  قال  وهو اسم أَعجمي أَصله ونقل من العجمية إلى العربية كما سُمي الدِّيباجُ من الفارسية  وقد تكرر ذكره في الحديث  وهو ما غلُظ من الحرير قال ابن الأثير  وقد ذكرها الجوهري في الباء من القاف في أَن الهمزة والتاء والسين من الزوائد  وذكرها أَيضاً في السين وذكرها الأَزهري في خماسي القاف على أَن همزتها وحدها زائدة  وقال  من الأَلفاظ حروف غريبة وقع فيها وِفاق بين العجمية وقال  هذا عندي هو الصواب ', 'lesan_1.csv', '2025-12-17 05:07:50', '2025-12-17 05:07:50');
+
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('استبرق', 'استبرق', '1', 'استبرق', 'استبرق', '6', 'vowel', ' *استبرق*   الإِسْتَبْرَقُ بُرَّةٌ حَمْرَاء كأنها قِطَعُ الأوْتارِ وهي أيضاً ثِيابٌ غليظَةٌ', 'almuheet_2.csv', '2025-12-17 05:07:37', '2025-12-17 05:07:37');
+
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('صبهبذ', 'صبهبذ', 5, ' صبهبذ  أَصْبَهْبَذَانُ  الأَصْبَهْبَذِيَّةُ أَصْبَهْبَذَ الأَصْبَهْبَذِيصة', 'صبهبذ  أصبهبذان  الأصبهبذية أصبهبذ الأصبهبذيصة', 5, 'no vowel', ' *صبهبذ* صبهبذ   أَصْبَهْبَذَانُ   أَهملَه الجوهَرِيّ وصاحِبُ اللّسَان  وقال الصاغَانيُّ  هو  بالفَتْح   وذِكْرُ الفَتْح مُسْتَدْركٌ  وأَغفلَ ضَبْط ما بعده  وهو لازمٌ ضَروريٌّ  وهو بسكون الصاد وفتح المُوَحَّدَة وسكون الهاءِ  ثم الموحّدة المفتوحة   د بالدَّيْلَمِ  الناحِيَةِ المعروفَة   الأَصْبَهْبَذِيَّةُ  بالضَّبطِ الماضي   نَوْعٌ مِن دَرَاهِمِ العِرَاقِ  نُسِبَتْ إِلى أَصْبَهْبَذَ  قال الأَزهريُّ في الخماسيّ  وهو اسمٌ أَعجميٌّ  وصاده في الأَصل سين  قلت  وقد وقع في شعر جَرِيرٍ وقال إِنه مُعَرَّب  ومعناه الأَمير  كذا ذكره غيرُ واحدٍ من الأَئمّة   و  الأَصْبَهْبَذِيصة   مَدْرَسةٌ ببغدادَ بين الدَّرْبَيْنِ   نُسِبت إِلى هذا الرجَّل ', 'Tag Al-‘Arus Min Gawahir Al-Qamus4.csv', '2025-12-17 05:07:23', '2025-12-17 05:07:23');
+
+DELETE FROM `sources` WHERE `id` IN (27870,29420,33892,33601,33714,33777,31687,44418,45470,29988,30990,37792,18939,37810,37685,24690);
+
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('اصطكم', 'اصطكم', 1, 'الإِصْطَكْمَةُ', 'الإصطكمة', 5, 'vowel', ' *اصطكم*    الإِصْطَكْمَةُ خُبْزُ المَلّةِ', 'almuheet_2.csv', '2025-12-17 05:07:38', '2025-12-17 05:07:38');
+
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('اسبرج', 'اسبرج', 1, 'بالإِسْبِرَنْجِ', 'بالإسبرنج', 5, 'vowel', ' *اسبرج*  في الحديث  مَن لَعِبَ بالإِسْبِرَنْجِ والنَّرْدِ فَقَد غَمَسَ دم خنزير ؛ قال ابن الأَثير في النهاية  هو اسم الفرس التي في واللغة فارسية معرّبة ', 'lesan_1.csv', '2025-12-17 05:07:49', '2025-12-17 05:07:49');
+
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('اسمعل', 'اسمعل', 2, 'إِسْمَعِيل وإِسْمَعِين', 'إسمعيل وإسمعين', 5, 'vowel', ' *اسمعل*  إِسْمَعِيل وإِسْمَعِين  اسمان ', 'lesan_1.csv', '2025-12-17 05:07:50', '2025-12-17 05:07:50');
+
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('اندرم', 'اندرم', 1, ' أَنْدَرَايَمْ ', 'أندرايم', 5, 'vowel', ' *اندرم*    النهاية لابن الأثير في حديث عبد الرحمن بن يزيد وسُئل كيف « كيف نسلم » هكذا في الأصل بالنون مبنياً للفاعل  وفي نسخ كيف يسلم  بالياء وبناء الفعل للمفعول  على أهل الذِّمَّة  فقال  ؛ قال أَبو عبيد  هي كلمة فارسية مَعْناها أَأَدْخُل  أَن يَخُصَّهم بالاسْتِئذان بالفارِسِيَّة  ولكنهم كانوا أَن يُخاطِبَهم بِلِسانِهم  قال  والذي يُراد منه أَنه لم قَبْل الاسْتِئذان  ألا تَرَى أَنه لم يَقُلْ عليكم \" أَنْدَرَايَمْ \"', 'lesan_1.csv', '2025-12-17 05:07:50', '2025-12-17 05:07:50');
+
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('انقلس', 'انقلس', 1, 'الأَنْقَيْلَسُ', 'الأنقيلس', 5, 'vowel', ' *انقلس*    الأَنْقَيْلَسُ والأَنْقَلَيْسُ  سمكة على خِلقَة حية  وهي ابن الأَعرابي  الشَّلِقُ الأَنْكَلَيْسُ  ومرة قال  الأَنْقَلَيْسُ  الجِرِّيُّ والجِرِّيتُ ؛ وقال الليث  هو بفتح اللام والأَلف  يكسر الأَلف واللام ؛ قال الأَزهري  أُراها معرَّبة ', 'lesan_1.csv', '2025-12-17 05:07:49', '2025-12-17 05:07:49'),
+    ('انكلس', 'انكلس', 1, 'الأَنْكَلَيْسُ', 'الأنكليس', 5, 'vowel', ' *انكلس*    ابن الأَعرابي  الشَّلِقُ الأَنْكَلَيْسُ  ومرة قال  وهو السمك الجِرِّيُّ والجِرِّيتُ ؛ وقال الليث  هو بفتح اللام من يكسرهما  قال الأَزهري  أُراها معرّبة  وفي حديث علي  رضي  أَنه بَعَثَ إِلى السُّوق فقال لا تَأْكلوا الأَنْكَلَيْسَ ؛ هو وكسرها  سمك شبيه بالحيات رديء الغذاء  وهو الذي يسمى » وإِنما كرهه لهذا لا لأَنه حرام  ورواه الأَزهري عن عَمّار وقال  بالقاف لغة فيه ', 'lesan_1.csv', '2025-12-17 05:07:49', '2025-12-17 05:07:49');
+
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('سلنطع', 'سلنطع', 2, ' السُّلُنطُوعُ والسَّلَنْطَعُ', 'السلنطوع والسلنطع', 5, 'no vowel', ' *سلنطع*     السُّلْطُوعُ  الجَبل الأَملس  المُتَتَعْتِعُ المُتَعَتِّه في كلامه كالمجنون ', 'lesan_4.csv', '2025-12-17 05:07:58', '2025-12-17 05:07:58');
+
+
+DELETE FROM `sources` WHERE `id` IN (31453,37646,37734,37824,37718,37719,41511,45119);
+
+DELETE FROM `sources` WHERE `id` IN (28874,68625);
+
+INSERT INTO `sources` (`root`, `stripped_root`, `derivatives_count`, `derivatives`, `normalised_derivatives`, `root_length`, `has_vowel`, `description`, `file`, `updated_at`, `created_at`)
+VALUES
+    ('أزد', 'أزد', 1, 'الْأَزَاذُ', 'الأزاذ', 3, 'vowel', ' *أزد*    الْأَزَاذُ ضَرْبٌ مِنْ أَجْوَدِ التَّمْرِ', 'AlMaghreb.csv', '2025-12-17 05:06:34', '2025-12-17 05:06:34');
+
+DELETE FROM `sources` WHERE `id` IN (42,52);
